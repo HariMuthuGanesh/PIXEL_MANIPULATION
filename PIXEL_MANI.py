@@ -65,7 +65,6 @@ Label(frame, text="ENTER A KEY TO ENCRYPT & DECRYPT A IMAGE", font=("Times New R
 
 #------------key--------------
 key = Text(frame, height=5, width=20, font=("Times New Roman", 14),bd=2, relief="groove")
-# key_enc.place(x=250,y=350)
 key.pack(padx=50,pady=50,side="top",expand=True)
 
 
